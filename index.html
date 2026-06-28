@@ -76,14 +76,15 @@
         .stats {
             display: flex;
             justify-content: center;
-            gap: 15px;
+            gap: 12px;
             margin-bottom: 25px;
-            font-size: 0.85rem;
+            font-size: 0.75rem; /* Reduced for better mobile fit */
             color: var(--text-muted);
             background: #fdfdfd;
-            padding: 10px;
+            padding: 12px 10px; /* Added 2px vertical breathing room */
             border-radius: 8px;
-            border: 1px dashed #eee;
+            border: 1px solid #eee; /* Solid border looks more executive than dashed */
+            flex-wrap: nowrap; /* Forces it to stay on one line */
         }
 
         .contact-info {
